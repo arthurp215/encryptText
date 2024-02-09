@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo2.png">
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <section class="text-area">
+                <div class="div-content">
+                    <textarea id="text" placeholder="Ingrese un texto..."></textarea>
+                    <p><i class="fa-thin fa-circle-info"></i> Solo usar letras en minúsculas y sin acentos</p>
+                    <div class="buttons">
+                        <input id="encoder" type="button" value="Encriptar">
+                        <input id="decoder" type="button" value="Desencriptar">
+                    </div>
+                </div>
+            </section>
+            <section class="result-text">
+                <div class="div-result">
+                    <p id="result"></p>
+                    <div class="buttons">
+                        <input id="copy" type="button" value="Copiar">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+    <script src="js/main.js"></script>
+</html>
